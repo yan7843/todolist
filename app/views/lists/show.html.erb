@@ -1,0 +1,16 @@
+<div class="form container">
+  <div class="form-group">    
+    <%= @list.name %>
+  </div>
+  <div class="form-group">    
+   <%= @list.date %>
+  </div>
+  <div class="form-group">    
+    <%= simple_format(@list.note) %>
+  </div>
+
+  <div class="form-group">   
+    <%= link_to 'Back to index', lists_path %>
+  </div>
+  
+</div>
